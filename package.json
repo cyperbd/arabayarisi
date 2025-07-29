@@ -1,0 +1,11 @@
+{
+  "name": "mmo-rpg-game",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "build": "yarn workspace client build && yarn workspace server build"
+  }
+}
